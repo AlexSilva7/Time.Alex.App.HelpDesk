@@ -1,0 +1,13 @@
+font awesome
+
+
+<script src="https://kit.fontawesome.com/1a80b259e2.js" crossorigin="anonymous"></script>
+
+
+
+
+pen-to-square = <i class="fa-solid fa-pen-to-square"></i>
+
+file-pen = <i class="fa-solid fa-file-pen"></i>
+
+magnifying-glass = <i class="fa-solid fa-magnifying-glass"></i>
