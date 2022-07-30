@@ -1,4 +1,31 @@
+/* paragrafo do header, "call_inquiry"*/
 p {
     font-size: 25px !important;
     font-family: 'Dancing Script', cursive;
+}
+
+/* css, página "call_opening"*/
+.form-group {
+    border: solid 2px rgb(187, 183, 183);
+    border-radius: 5px;
+}
+
+.titulo-principal{
+    font-weight: bold;
+    background-color: rgb(234, 233, 233);
+    color: rgb(29, 28, 28);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-label{
+    font-size: 22px;
+} 
+
+.form-control{
+    max-width: 90% !important;
+}
+
+.btn{
+    margin: 2rem 0 0 3.6rem;
+    width: 10rem;
 }
