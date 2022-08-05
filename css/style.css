@@ -27,3 +27,14 @@ header p {
     margin: 2rem 0 0 3.6rem;
     width: 10rem;
 }
+
+/* css, página "home"*/
+.conteudo{
+    margin-top: 12rem;
+}
+
+.titulo-menu{
+    background-color:#F7F7F7;
+    padding-left: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
