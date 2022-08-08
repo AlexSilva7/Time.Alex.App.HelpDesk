@@ -1,4 +1,5 @@
-p {
+/* paragrafo do header, "call_inquiry"*/
+header p {
     font-size: 25px !important;
     font-family: 'Dancing Script', cursive;
 }
@@ -22,3 +23,26 @@ p {
     max-width: 100px;
 }
 
+/* css, página "call_opening"*/
+#call-opening .form-group {
+    border: solid 2px rgb(187, 183, 183);
+    max-width: 40rem;
+    border-radius: 5px;
+    margin-top: 6rem;
+}
+
+#call-opening .titulo-principal{
+    font-size: 27px;
+    background-color: rgb(234, 233, 233);
+    color: rgb(29, 28, 28);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#call-opening .form-control{
+    max-width: 90% !important;
+}
+
+#call-opening .btn{
+    margin: 2rem 0 0 3.6rem;
+    width: 10rem;
+}
