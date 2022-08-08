@@ -13,9 +13,27 @@
 <body>
   <header>
     <div class="navbar navbar-expand navbar-dark bg-dark">
-      <img src="#" class="ms-3 mb-2 me-3 " width="40" height="40" alt="" >
+      <img src="img/icons/logo2-removebg-preview.png" class="ms-3 mb-2 me-3 " width="40" height="40" alt="" >
       <p class="navbar-brand">App Help Desk</p>
     </div>
   </header>
+    
+  <form id="form-login">
+    <img class="pc" src="img/icons/login.png" alt="">
+    <div class="form-group mb-3">
+      <label for="Login">Login</label>
+      <input type="text" class="form-control mt-1" id="Login" aria-describedby="" placeholder="Seu Login">
+     
+    </div>
+    <div class="form-group mb-2">
+      <label for="exampleInputPassword1">Senha</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+    </div>
+    <div class="mb-2 text-danger d-none"> 
+      usuario ou  senha incorreta
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+
 </body>
 </html>
