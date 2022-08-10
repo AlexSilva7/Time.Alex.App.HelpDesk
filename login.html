@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/login.js"></script>
     <title>Login - App Help Desk</title>
 </head>
 <body>
@@ -22,17 +22,17 @@
     <img class="pc" src="img/icons/login.png" alt="">
     <div class="form-group mb-3">
       <label for="Login">Login</label>
-      <input type="text" class="form-control mt-1" id="Login" aria-describedby="" placeholder="Seu Login">
+      <input type="text" class="form-control mt-1" id="login" aria-describedby="" placeholder="Seu Login">
      
     </div>
     <div class="form-group mb-2">
       <label for="exampleInputPassword1">Senha</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+      <input type="password" class="form-control" id="password" placeholder="Senha">
     </div>
     <div class="mb-2 text-danger d-none"> 
       usuario ou  senha incorreta
     </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <button type="submit" class="btn btn-primary" onclick="Login()">Enviar</button>
   </form>
 
 </body>
