@@ -8,7 +8,7 @@ function VerificarCredenciais(){
         window.location.href = "login.html";
     }
     
-    localStorage.clear()
+    //localStorage.clear()
 }
 
 window.onpaint = VerificarCredenciais();
