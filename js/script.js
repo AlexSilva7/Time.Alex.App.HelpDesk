@@ -6,9 +6,9 @@ function VerificarCredenciais(){
     if(verificaLogin == null){
         alert("Favor fazer login antes de acessar esse conteudo")
         window.location.href = "login.html";
+        localStorage.removeItem("Usuario")
     }
     
-    localStorage.clear()
 }
 
 window.onpaint = VerificarCredenciais();
