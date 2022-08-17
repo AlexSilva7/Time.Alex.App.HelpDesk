@@ -14,6 +14,8 @@ var jose = {
     password: "1234"
 }
 
+var arrayUsuarios = [admin, maria, jose];
+
 function Entrar(){
 
     var login = document.getElementById("login")
@@ -25,15 +27,46 @@ function Entrar(){
         return
     }
 
-    if(login.value == admin.username && senha.value == admin.password){
-        alert("Logado com sucesso!");
-        localStorage.setItem("Usuario", login);
-        window.location.href = "home.html"; 
-    }else{
-        const element = document.getElementById('erros');
-        element.classList.remove('d-none');
-        login.value = ""
-        senha.value = ""
-        login.focus();
+    var usuario = VerificaLogin(login.value)
+    
+    if(usuario == null){
+        ChamaErro(login, senha);
+        return;
     }
+
+    if(senha.value == usuario.password){
+        alert("Logado com sucesso!");
+        localStorage.setItem("Usuario", login.value);
+        window.location.href = "home.html"; 
+
+    }else{
+        ChamaErro(login, senha);
+    }
+
+}
+
+function ChamaErro(elementoLogin, elementoSenha){
+    const element = document.getElementById('erros');
+    element.classList.remove('d-none');
+    elementoLogin.value = ""
+    elementoSenha.value = ""
+    elementoLogin.focus();
+}
+
+function VerificaLogin(usuario){
+
+    for(var x = 0; x < arrayUsuarios.length; x++){
+
+        if(usuario == arrayUsuarios[x].username){
+
+            return arrayUsuarios[x]
+
+        }
+
+    }
+}
+
+function RetornaDNone(){
+    const element = document.getElementById('erros')
+    element.classList.add('d-none')
 }
