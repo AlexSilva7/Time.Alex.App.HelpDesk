@@ -57,3 +57,41 @@ header p {
     padding-left: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;  
 }
+
+/* css, página "call_inquiry"*/
+#call-inquiry .form-group {
+    border: solid 2px rgb(187, 183, 183);
+    max-width: 40rem;
+    border-radius: 5px;
+    margin-top: 6rem;
+}
+
+#call-inquiry .titulo-principal{
+    font-size: 27px;
+    background-color: rgb(234, 233, 233);
+    color: rgb(29, 28, 28);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#call-inquiry .btn{
+    margin: 2rem 0 0 5rem;
+    width: 10rem;
+}
+
+#call-inquiry .form-consulta{
+    border: solid 2px rgb(187, 183, 183);
+    background-color: rgb(234, 233, 233);
+    border-radius: 5px;
+    max-width: 30rem;
+}
+
+#call-inquiry .titulo-chamado{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#call-inquiry .categoria{
+    font-weight: bolder;
+    color: rgb(100, 97, 97);
+}
+
