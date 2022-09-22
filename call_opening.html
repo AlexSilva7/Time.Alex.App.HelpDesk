@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/call_opening.js"></script>
     <title>Abertura de chamados- App Help Desk</title>
 </head>
 <body id="call-opening">
@@ -29,7 +30,7 @@
 
       <div class="ms-5 p-2">
         <label for="categoria" class="form-label">Categoria do chamado</label>
-        <select class="form-select form-control " aria-label="Disabled select example">
+        <select class="form-select form-control " aria-label="Disabled select example" id="op-categoria">
           <option>Criação de usuário</option>
           <option>Hardware</option>
           <option>Software</option>
@@ -43,7 +44,7 @@
       </div>
 
       <a href="home.html"><button type="button" class="btn btn-secondary btn-md">Voltar</button></a>
-      <button type="button" class="btn btn-primary btn-md">Abrir</button>
+      <button type="button" class="btn btn-primary btn-md" onclick="VerificaChamados();">Abrir</button>
     </div>  
   </form>
 
